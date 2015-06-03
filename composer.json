@@ -1,0 +1,25 @@
+{
+    "name": "alkemann/h.l.app",
+    "description": "Base package for making homepages.",
+    "version": "v1.0",
+    "type": "project",
+    "keywords": ["cms", "homepage", "alkemann"],
+    "homepage": "https://github.com/alkemann/h.l.app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Morland",
+            "homepage": "https://github.com/alkemann",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/alkemann/h.l.app/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "alkemann\\": "lib/src/alkemann"
+        }
+    },
+    "minimum-stability": "stable"
+}
