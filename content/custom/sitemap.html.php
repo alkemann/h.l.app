@@ -1,7 +1,8 @@
 <h1>Sitemap</h1>
 <link rel="stylesheet" type="text/css" media="screen,print" href="/libs/slickmap/slickmap.css" />
 <?php
-$sitemap = \alkemann\hl\util\Sitemap::generate();
+use \alkemann\hl\util\Sitemap;
+$sitemap = Sitemap::generate();
 ?>
 <div class="sitemap">
 		<ul id="utilityNav"> 
@@ -9,7 +10,7 @@ $sitemap = \alkemann\hl\util\Sitemap::generate();
 		</ul> 
  
         <ul id="primaryNav" class="col<?php count($sitemap);?>"> 
-			<li id="home"><a href="http://hjemmesiden.l">Home</a></li> 
+			<li id="home"><a href="<?php echo Sitemap::root();?>">Home</a></li> 
 <?php
         foreach ($sitemap as $name => $contains) {
             echo '<li>';

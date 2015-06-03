@@ -17,6 +17,7 @@ define('HL_PATH', LIBS_PATH . 'alkemann/h.l/src/alkemann/hl' . DS);
 require_once(CONFIG_PATH . 'defines.php');
 require_once(LIBS_PATH . 'autoload.php');
 require_once(CONFIG_PATH . 'bootstrap.php');
+require_once(CONFIG_PATH . 'routes.php');
 
 
 try {
