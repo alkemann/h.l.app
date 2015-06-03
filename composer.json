@@ -16,10 +16,13 @@
     "support": {
         "issues": "https://github.com/alkemann/h.l.app/issues"
     },
-    "autoload": {
-        "psr-4": {
-            "alkemann\\": "lib/src/alkemann"
-        }
+    "require": {
+        "alkemann/h.l": "1.*"
     },
-    "minimum-stability": "stable"
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/alkemann/h.l.git"
+        }
+    ]
 }
