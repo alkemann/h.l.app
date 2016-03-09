@@ -17,7 +17,7 @@
         "issues": "https://github.com/alkemann/h.l.app/issues"
     },
     "require": {
-        "alkemann/h.l": "~1.3"
+        "alkemann/h.l": ">=2.5"
     },
     "repositories": [
         {
