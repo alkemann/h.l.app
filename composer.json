@@ -1,7 +1,7 @@
 {
     "name": "alkemann/h.l.app",
     "description": "Base package for making homepages.",
-    "version": "v2.0",
+    "version": "v3.0",
     "type": "project",
     "keywords": ["cms", "homepage", "alkemann"],
     "homepage": "https://github.com/alkemann/h.l.app",
@@ -17,11 +17,11 @@
         "issues": "https://github.com/alkemann/h.l.app/issues"
     },
     "require": {
-        "alkemann/h.l": ">=2.5"
+        "alkemann/h.l": "^3.4.1"
     },
     "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/alkemann/h.l.git"
         }
     ]

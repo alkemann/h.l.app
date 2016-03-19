@@ -4,20 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "600796348f2a53fbaab0505b8ed26ca4",
+    "hash": "44e16bb4d496b9fa7930d858b124f91a",
+    "content-hash": "faf119ea8679f35d9e4ee8d67c4e1593",
     "packages": [
         {
             "name": "alkemann/h.l",
-            "version": "v1.0",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alkemann/h.l.git",
-                "reference": "fc80fe70afae4595a207bf1bf7fa2f5b53f2c07a"
+                "reference": "71fbaa715005c77953b38ae7275d3b745b2c14e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alkemann/h.l/zipball/71fbaa715005c77953b38ae7275d3b745b2c14e9",
+                "reference": "71fbaa715005c77953b38ae7275d3b745b2c14e9",
+                "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "alkemann\\": "src/alkemann/"
+                    "alkemann\\hl\\": "src/"
                 }
             },
             "license": [
@@ -38,9 +45,10 @@
                 "homepage"
             ],
             "support": {
-                "issues": "https://github.com/alkemann/h.l/issues"
+                "issues": "https://github.com/alkemann/h.l/issues",
+                "source": "https://github.com/alkemann/h.l/tree/3.4.1"
             },
-            "time": "2015-06-03 18:03:20"
+            "time": "2016-03-19 14:23:21"
         }
     ],
     "packages-dev": [],
